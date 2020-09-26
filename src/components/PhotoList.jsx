@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import { Link, Route, Switch } from 'react-router-dom'
 
-class BestSportMoment extends Component {
+class PhotoList extends Component {
   render() {
     return <div></div>
   }
 }
-export default BestSportMoment
+export default PhotoList

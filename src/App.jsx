@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link, Route, Switch } from 'react-router-dom'
-import BestSportMoment from './components/BestSportMoment'
-import UCF from './components/UCF'
+import PhotoList from './components/PhotoList'
+import CategoryList from './components/CategoryList'
 
 class App extends Component {
   render() {
@@ -31,10 +31,10 @@ class App extends Component {
             Home
           </Route>
           <Route exact path="/1">
-            <BestSportMoment />
+            <CategoryList />
           </Route>
           <Route exact path="/2">
-            <UCF />
+            <PhotoList />
           </Route>
           <Route exact path="/3">
             Page 3
